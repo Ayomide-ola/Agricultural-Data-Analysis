@@ -1,0 +1,9 @@
+variable_name,variable_description,notes
+observed_month,Month in which report observations are collected,Dates are recorded in ISO 8601 format YYYY-MM-DD
+prod_type,"type of egg product: hatching, table eggs",
+prod_process,"type of production process and housing: cage-free (organic), cage-free (non-organic), all",The value 'all' includes cage-free and conventional housing.
+n_eggs,number of eggs produced by hens for a given month-type-process combo,
+n_hens,number of hens producing eggs for a given month-type-process combo,
+source,Original USDA report from which data are sourced,Values correspond to titles of PDF reports in /raw repository. Date of report is included in title.
+percent_hens,observed or computed percentage of cage-free hens relative to all table-egg-laying hens,
+percent_eggs,computed percentage of cage-free eggs relative to all table eggs,This variable is not available for data sourced from the Egg Markets Overview report
